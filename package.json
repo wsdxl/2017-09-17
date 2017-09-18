@@ -6,7 +6,7 @@
   "scripts": {
     "test": "mocha index1.js --reporter mochawesome ",
     "testing": "mocha index2.js --reporter mochawesome ",
-    "jenkins:dev": "./node_modules/.bin/nyc.cmd mocha index2.js"
+    "jenkins:dev": "./node_modules/.bin/mocha index2.js --reporter mocha-junit-reporter"
   },
   "author": "",
   "license": "ISC",
@@ -18,5 +18,8 @@
     "mongod": "^2.0.0",
     "mongodb": "^2.2.31",
     "selenium-webdriver": "^3.5.0"
+  },
+  "devDependencies": {
+    "mocha-junit-reporter": "^1.13.0"
   }
 }
