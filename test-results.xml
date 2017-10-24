@@ -1,47 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="Mocha Tests" time="26.237000000000002" tests="16" failures="0">
-  <testsuite name="Root Suite" timestamp="2017-09-18T13:46:43" tests="0" failures="0" time="0">
+<testsuites name="Mocha Tests" time="12.877" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2017-09-27T15:11:38" tests="0" failures="0" time="0">
   </testsuite>
-  <testsuite name="注册、登录、发布话题和回帖等功能" timestamp="2017-09-18T13:46:43" tests="0" file="E:\test\2017-09-17\index2.js" failures="0" time="0">
-  </testsuite>
-  <testsuite name="注册功能" timestamp="2017-09-18T13:46:43" tests="3" file="E:\test\2017-09-17\index2.js" failures="0" time="9.448">
-    <testcase name="注册、登录、发布话题和回帖等功能 注册功能 打开首页" time="8.265" classname="打开首页">
-    </testcase>
-    <testcase name="注册、登录、发布话题和回帖等功能 注册功能 点击注册按钮" time="0.291" classname="点击注册按钮">
-    </testcase>
-    <testcase name="注册、登录、发布话题和回帖等功能 注册功能 输入注册信息，修改数据库" time="0.892" classname="输入注册信息，修改数据库">
-    </testcase>
-  </testsuite>
-  <testsuite name="登录功能" timestamp="2017-09-18T13:46:54" tests="5" file="E:\test\2017-09-17\index2.js" failures="0" time="1.2639999999999998">
-    <testcase name="注册、登录、发布话题和回帖等功能 登录功能 打开首页" time="0.25" classname="打开首页">
-    </testcase>
-    <testcase name="注册、登录、发布话题和回帖等功能 登录功能 点击登录按钮" time="0.28" classname="点击登录按钮">
-    </testcase>
-    <testcase name="注册、登录、发布话题和回帖等功能 登录功能 输入用户名和密码" time="0.198" classname="输入用户名和密码">
-    </testcase>
-    <testcase name="注册、登录、发布话题和回帖等功能 登录功能 点击登录" time="0.535" classname="点击登录">
-    </testcase>
-    <testcase name="注册、登录、发布话题和回帖等功能 登录功能 assert" time="0.001" classname="assert">
-    </testcase>
-  </testsuite>
-  <testsuite name="发布话题" timestamp="2017-09-18T13:46:57" tests="4" file="E:\test\2017-09-17\index2.js" failures="0" time="7.894">
-    <testcase name="注册、登录、发布话题和回帖等功能 发布话题 点击发布话题" time="0.468" classname="点击发布话题">
-    </testcase>
-    <testcase name="注册、登录、发布话题和回帖等功能 发布话题 选择分享下拉列表，输入标题" time="0.434" classname="选择分享下拉列表，输入标题">
-    </testcase>
-    <testcase name="注册、登录、发布话题和回帖等功能 发布话题 添加图片" time="0.298" classname="添加图片">
-    </testcase>
-    <testcase name="注册、登录、发布话题和回帖等功能 发布话题 点击链接" time="6.694" classname="点击链接">
-    </testcase>
-  </testsuite>
-  <testsuite name="回帖功能" timestamp="2017-09-18T13:47:07" tests="4" file="E:\test\2017-09-17\index2.js" failures="0" time="7.631">
-    <testcase name="注册、登录、发布话题和回帖等功能 回帖功能 添加回复_照片" time="2.147" classname="添加回复_照片">
-    </testcase>
-    <testcase name="注册、登录、发布话题和回帖等功能 回帖功能 添加回复_内容" time="2.495" classname="添加回复_内容">
-    </testcase>
-    <testcase name="注册、登录、发布话题和回帖等功能 回帖功能 编辑回复" time="2.852" classname="编辑回复">
-    </testcase>
-    <testcase name="注册、登录、发布话题和回帖等功能 回帖功能 删除回复" time="0.137" classname="删除回复">
+  <testsuite name="login" timestamp="2017-09-27T15:11:38" tests="1" file="E:\test\2017-09-17\jishangtong.js" failures="0" time="12.877">
+    <testcase name="login u" time="12.877" classname="u">
     </testcase>
   </testsuite>
 </testsuites>

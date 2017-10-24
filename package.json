@@ -6,7 +6,8 @@
   "scripts": {
     "test": "mocha index1.js --reporter mochawesome ",
     "testing": "mocha index2.js --reporter mochawesome ",
-    "jenkins:dev": "mocha index2.js --reporter mocha-junit-reporter"
+    "jenkins:dev": "mocha index2.js --reporter mocha-junit-reporter",
+    "jenkins": "mocha jishangtong.js --reporter mocha-junit-reporter"
   },
   "author": "",
   "license": "ISC",
